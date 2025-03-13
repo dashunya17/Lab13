@@ -179,9 +179,8 @@ public class Main {
             products[i].price();
             products[i].rating();
         }
-
         Purchases [] purchases = new Purchases[1];
-        purchases[0]=new Purchases("Бокун Даниил","264835","26566","стул Империя",12000,5);
+        purchases[0]=new Purchases("Бокун Даниил","264835","26566","стол Империя",12000,5);
         for(int i=0; i< purchases.length;i++){
             purchases[i].Name_Product();
             purchases[i].price();
